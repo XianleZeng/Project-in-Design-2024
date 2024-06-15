@@ -1,0 +1,17 @@
+/COM,ANSYS RELEASE 2024 R1           BUILD 24.1      UP20231106       18:34:00
+
+ *** WARNING ***                         CP =       2.828   TIME= 18:34:01
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       3.578   TIME= 18:34:02
+ Material number 4 (used by element 89561) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       8.688   TIME= 18:34:03
+ Too many nodes 5853 are included in the force-distributed-surface       
+ constraint identified by real constant set 2.  This may greatly affect  
+ solver performance due to large wave fronts and memory consumption.     
+ Also check results carefully and consider solving with a different      
+ unit system.                                                            
