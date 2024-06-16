@@ -103,13 +103,13 @@
   DISTRIBUTED MEMORY PARALLEL REQUESTED
        4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
     TOTAL OF     4 CORES REQUESTED
-  INPUT FILE NAME              = D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C\dummy.dat
-  OUTPUT FILE NAME             = D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C\solve.out
+  INPUT FILE NAME              = D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\_ProjectScratch\ScrD223\dummy.dat
+  OUTPUT FILE NAME             = D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\_ProjectScratch\ScrD223\solve.out
   START-UP FILE MODE           = NOREAD
   STOP FILE MODE               = NOREAD
 
  RELEASE= 2024 R1              BUILD= 24.1      UP20231106   VERSION=WINDOWS x64 
- CURRENT JOBNAME=file0  18:34:01  JUN 15, 2024 CP=      0.031
+ CURRENT JOBNAME=file0  20:51:04  JUN 15, 2024 CP=      0.078
 
 
  PARAMETER _DS_PROGRESS =     999.0000000    
@@ -118,11 +118,11 @@
 
 
 
- *** NOTE ***                            CP =       0.156   TIME= 18:34:01
+ *** NOTE ***                            CP =       0.188   TIME= 20:51:04
  The /CONFIG,NOELDB command is not valid in a distributed memory         
  parallel solution.  Command is ignored.                                 
 
- *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  18.5669444    
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.8511111    
 
  TITLE= 
  Box and Lid Combination - Final Version--Static Structural (A5)               
@@ -137,17 +137,17 @@
  SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_PROJECTSCRATCH_DIR(1) = D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C\
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\_ProjectScratch\ScrD223\
 
  SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_SOLVERFILES_DIR(1) = D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\Box and Lid Combination - Final Version_files\dp0\SYS\MECH\
+ PARAMETER _WB_SOLVERFILES_DIR(1) = D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\Box and Lid Combination - Final Version_files\dp0\SYS\MECH\
 
  SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_USERFILES_DIR(1) = D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\Box and Lid Combination - Final Version_files\user_files\
+ PARAMETER _WB_USERFILES_DIR(1) = D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\Box and Lid Combination - Final Version_files\user_files\
  --- Data in consistent NMM units. See Solving Units in the help system for more
 
  MPA UNITS SPECIFIED FOR INTERNAL    
@@ -163,7 +163,7 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2024 R1          24.1     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   18:34:01  JUN 15, 2024 CP=      0.188
+ 01055371  VERSION=WINDOWS x64   20:51:04  JUN 15, 2024 CP=      0.219
 
  Box and Lid Combination - Final Version--Static Structural (A5)               
 
@@ -191,18 +191,18 @@
  *********** Construct Moment Using Remote Attachment ***********
 
 
- ***** ROUTINE COMPLETED *****  CP =         2.016
+ ***** ROUTINE COMPLETED *****  CP =         2.047
 
 
  --- Number of total nodes = 108592
- --- Number of contact elements = 7458
+ --- Number of contact elements = 10106
  --- Number of spring elements = 0
  --- Number of bearing elements = 0
  --- Number of solid elements = 63102
  --- Number of condensed parts = 0
- --- Number of total elements = 70561
+ --- Number of total elements = 73209
 
- *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  18.5669444    
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.8513889    
  ****************************************************************************
  *************************    SOLUTION       ********************************
  ****************************************************************************
@@ -242,7 +242,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE         4 TO          4 STEP          1
 
-       2786  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+       2786  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -261,7 +261,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE         5 TO          5 STEP          1
 
-        190  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        190  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -280,7 +280,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE         6 TO          6 STEP          1
 
-        198  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        198  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -299,7 +299,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE         7 TO          7 STEP          1
 
-        114  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        114  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -318,7 +318,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE         8 TO          8 STEP          1
 
-        112  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        112  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -337,15 +337,15 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE         9 TO          9 STEP          1
 
-        138  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+       2786  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
-        317 NODES (OF     108592  DEFINED) SELECTED FROM
-      138 SELECTED ELEMENTS BY NSLE COMMAND.
+       5852 NODES (OF     108592  DEFINED) SELECTED FROM
+     2786 SELECTED ELEMENTS BY NSLE COMMAND.
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
-     VALUES =    0.33158E-01    0.33158E-01    0.33158E-01    0.33158E-01
+     VALUES =    0.74971E-03    0.74971E-03    0.74971E-03    0.74971E-03
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  2   KVAL = 1
      VALUES =     0.0000         0.0000         0.0000         0.0000    
@@ -356,7 +356,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE        10 TO         10 STEP          1
 
-        226  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        226  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -375,7 +375,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE        11 TO         11 STEP          1
 
-        276  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        276  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -394,7 +394,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE        12 TO         12 STEP          1
 
-        404  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        404  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -413,7 +413,7 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE        13 TO         13 STEP          1
 
-        228  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+        228  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
 
@@ -435,9 +435,9 @@
      108592  NODES (OF     108592  DEFINED) SELECTED BY NSEL  COMMAND.
 
  ALL SELECT   FOR ITEM=ELEM COMPONENT=    
-  IN RANGE         1 TO      94232 STEP          1
+  IN RANGE         1 TO      96880 STEP          1
 
-      70561  ELEMENTS (OF      70561  DEFINED) SELECTED BY  ESEL  COMMAND.
+      73209  ELEMENTS (OF      73209  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SELECT       FOR ITEM=NODE COMPONENT=    
   IN RANGE    108592 TO     108592 STEP          1
@@ -507,22 +507,22 @@
 
  *ENDIF
 
- *** NOTE ***                            CP =       2.516   TIME= 18:34:01
+ *** NOTE ***                            CP =       2.609   TIME= 20:51:05
  The automatic domain decomposition logic has selected the MESH domain   
  decomposition method with 4 processes per solution.                     
 
  *****  MAPDL SOLVE    COMMAND  *****
 
- *** WARNING ***                         CP =       2.828   TIME= 18:34:01
+ *** WARNING ***                         CP =       2.859   TIME= 20:51:05
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** NOTE ***                            CP =       3.391   TIME= 18:34:02
+ *** NOTE ***                            CP =       3.484   TIME= 20:51:05
  The model data was checked and warning messages were found.             
   Please review output or errors file ( D:\GTIIT\Semester 6_Spring       
- 2024\Design                                                             
- project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C\file0.err ) for    
- these warning messages.                                                 
+ 2024\Design project\Project-in-Design-2024\SW\Box and Lid               
+ Combination\_ProjectScratch\ScrD223\file0.err ) for these warning       
+ messages.                                                               
 
  *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
       --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
@@ -534,7 +534,7 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2024 R1          24.1     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   18:34:02  JUN 15, 2024 CP=      3.453
+ 01055371  VERSION=WINDOWS x64   20:51:05  JUN 15, 2024 CP=      3.547
 
  Box and Lid Combination - Final Version--Static Structural (A5)               
 
@@ -550,52 +550,52 @@
       TOLERANCE. . . . . . . . . . . . . . . . . . 1.00000E-08
    GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
 
- *** WARNING ***                         CP =       3.578   TIME= 18:34:02
+ *** WARNING ***                         CP =       3.672   TIME= 20:51:05
  Material number 4 (used by element 89561) should normally have at least 
  one MP or one TB type command associated with it.  Output of energy by  
  material may not be available.                                          
 
- *** NOTE ***                            CP =       3.703   TIME= 18:34:02
+ *** NOTE ***                            CP =       3.797   TIME= 20:51:05
  The step data was checked and warning messages were found.              
   Please review output or errors file ( D:\GTIIT\Semester 6_Spring       
- 2024\Design                                                             
- project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C\file0.err ) for    
- these warning messages.                                                 
+ 2024\Design project\Project-in-Design-2024\SW\Box and Lid               
+ Combination\_ProjectScratch\ScrD223\file0.err ) for these warning       
+ messages.                                                               
 
- *** NOTE ***                            CP =       3.703   TIME= 18:34:02
+ *** NOTE ***                            CP =       3.797   TIME= 20:51:05
  The conditions for direct assembly have been met.  No .emat or .erot    
  files will be produced.                                                 
 
  CHECK INITIAL OPEN/CLOSED STATUS OF SELECTED CONTACT ELEMENTS
       AND LIST DETAILED CONTACT PAIR INFORMATION
 
- *** NOTE ***                            CP =       3.953   TIME= 18:34:02
+ *** NOTE ***                            CP =       4.109   TIME= 20:51:05
  Internal nodes from 108593 to 108593 are created.                       
  1 internal nodes are used for handling degrees of freedom on pilot      
  nodes of rigid target surfaces.                                         
 
- *** NOTE ***                            CP =       4.328   TIME= 18:34:02
+ *** NOTE ***                            CP =       4.422   TIME= 20:51:05
  Internal nodes from 108593 to 108593 are created.                       
  1 internal nodes are used for handling degrees of freedom on pilot      
  nodes of rigid target surfaces.                                         
 
- *** NOTE ***                            CP =       5.203   TIME= 18:34:02
+ *** NOTE ***                            CP =       5.344   TIME= 20:51:05
  The maximum number of contact elements in any single contact pair is 0, 
  which is smaller than the optimal domain size of 4118 elements for the  
  given number of CPU domains (4).  Therefore, no contact pairs are       
  being split by the CNCH,DMP logic.                                      
 
- *** NOTE ***                            CP =       5.391   TIME= 18:34:02
+ *** NOTE ***                            CP =       5.531   TIME= 20:51:05
  Internal nodes from 108593 to 108593 are created.                       
  1 internal nodes are used for handling degrees of freedom on pilot      
  nodes of rigid target surfaces.                                         
 
- *** NOTE ***                            CP =       5.703   TIME= 18:34:02
+ *** NOTE ***                            CP =       5.906   TIME= 20:51:06
  Internal nodes from 108593 to 108593 are created.                       
  1 internal nodes are used for handling degrees of freedom on pilot      
  nodes of rigid target surfaces.                                         
 
- *** NOTE ***                            CP =       6.328   TIME= 18:34:02
+ *** NOTE ***                            CP =       6.594   TIME= 20:51:06
  Force-distributed-surface identified by real constant set 2 and         
  contact element type 2 has been set up.  The pilot node 108592 is used  
  to apply the force.  Internal MPC will be built.                        
@@ -607,7 +607,7 @@
   
   
 
- *** NOTE ***                            CP =       6.516   TIME= 18:34:02
+ *** NOTE ***                            CP =       6.844   TIME= 20:51:06
  Internal nodes from 108593 to 108593 are created.                       
  1 internal nodes are used for handling degrees of freedom on pilot      
  nodes of rigid target surfaces.                                         
@@ -616,10 +616,10 @@
   
      D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
   
-  ...Number of elements: 70561
+  ...Number of elements: 73209
   ...Number of nodes:    108593
   ...Decompose to 4 CPU domains
-  ...Element load balance ratio =     1.112
+  ...Element load balance ratio =     1.224
 
 
                       L O A D   S T E P   O P T I O N S
@@ -646,14 +646,14 @@
  SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
 
 
- *** WARNING ***                         CP =       8.688   TIME= 18:34:03
+ *** WARNING ***                         CP =       9.000   TIME= 20:51:07
  Too many nodes 5853 are included in the force-distributed-surface       
  constraint identified by real constant set 2.  This may greatly affect  
  solver performance due to large wave fronts and memory consumption.     
  Also check results carefully and consider solving with a different      
  unit system.                                                            
 
- *** NOTE ***                            CP =       8.812   TIME= 18:34:03
+ *** NOTE ***                            CP =       9.156   TIME= 20:51:07
  The PCG solver has automatically set the level of difficulty for this   
  model to 2.                                                             
 
@@ -698,23 +698,23 @@
    *** ELEMENT MATRIX FORMULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1     63102  SOLID187      3.688   0.000058
+        1     63102  SOLID187      4.141   0.000066
         2      2786  CONTA174      0.016   0.000006
         3         1  TARGE170      0.000   0.000000
-        4      2786  SURF154       0.062   0.000022
-        5       190  SURF154       0.016   0.000082
-        6       198  SURF154       0.000   0.000000
-        7       114  SURF154       0.016   0.000137
+        4      2786  SURF154       0.031   0.000011
+        5       190  SURF154       0.000   0.000000
+        6       198  SURF154       0.047   0.000237
+        7       114  SURF154       0.000   0.000000
         8       112  SURF154       0.000   0.000000
-        9       138  SURF154       0.000   0.000000
-       10       226  SURF154       0.031   0.000138
+        9      2786  SURF154       0.047   0.000017
+       10       226  SURF154       0.016   0.000069
        11       276  SURF154       0.000   0.000000
        12       404  SURF154       0.016   0.000039
-       13       228  SURF154       0.016   0.000069
- Time at end of element matrix formulation CP = 10.234375.               
- Iteration=    10 Ratio=  0.107895     Limit=  1.000000E-08 Wall=     0.1
- Iteration=    40 Ratio=  5.880580E-04 Limit=  1.000000E-08 Wall=     0.5
- Iteration=    75 Ratio=  2.323695E-06 Limit=  1.000000E-08 Wall=     0.9
+       13       228  SURF154       0.000   0.000000
+ Time at end of element matrix formulation CP = 10.71875.                
+ Iteration=    10 Ratio=  0.107864     Limit=  1.000000E-08 Wall=     0.1
+ Iteration=    40 Ratio=  5.854853E-04 Limit=  1.000000E-08 Wall=     0.5
+ Iteration=    75 Ratio=  2.312642E-06 Limit=  1.000000E-08 Wall=     0.9
 
  DISTRIBUTED PCG SOLVER SOLUTION CONVERGED
 
@@ -723,28 +723,28 @@
    NUMBER OF ITERATIONS=         109
    NUMBER OF EQUATIONS =      325785
    LEVEL OF CONVERGENCE=           1
-   CALCULATED NORM     = 0.79509E-08
+   CALCULATED NORM     = 0.78393E-08
    SPECIFIED TOLERANCE = 0.10000E-07
-   TOTAL CPU TIME (sec)=        1.58
-   TOTAL WALL TIME(sec)=        1.58
+   TOTAL CPU TIME (sec)=        1.59
+   TOTAL WALL TIME(sec)=        1.57
    TOTAL MEMORY (GB)   =        0.15
 
 
    *** ELEMENT RESULT CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1     63102  SOLID187      2.734   0.000043
+        1     63102  SOLID187      2.422   0.000038
         2      2786  CONTA174      0.000   0.000000
-        4      2786  SURF154       0.078   0.000028
+        4      2786  SURF154       0.031   0.000011
         5       190  SURF154       0.000   0.000000
-        6       198  SURF154       0.016   0.000079
-        7       114  SURF154       0.000   0.000000
+        6       198  SURF154       0.000   0.000000
+        7       114  SURF154       0.016   0.000137
         8       112  SURF154       0.000   0.000000
-        9       138  SURF154       0.000   0.000000
+        9      2786  SURF154       0.062   0.000022
        10       226  SURF154       0.000   0.000000
-       11       276  SURF154       0.000   0.000000
+       11       276  SURF154       0.016   0.000057
        12       404  SURF154       0.000   0.000000
-       13       228  SURF154       0.000   0.000000
+       13       228  SURF154       0.016   0.000069
 
    *** NODAL LOAD CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
@@ -756,7 +756,7 @@
         6       198  SURF154       0.000   0.000000
         7       114  SURF154       0.000   0.000000
         8       112  SURF154       0.000   0.000000
-        9       138  SURF154       0.000   0.000000
+        9      2786  SURF154       0.000   0.000000
        10       226  SURF154       0.000   0.000000
        11       276  SURF154       0.000   0.000000
        12       404  SURF154       0.000   0.000000
@@ -774,7 +774,7 @@
  ****************************************************
  *************** FINISHED SOLVE FOR LS 1 *************
 
- *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  18.5688889    
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.8530556    
 
  PRINTOUT RESUMED BY /GOP
 
@@ -783,13 +783,13 @@
  FINISH SOLUTION PROCESSING
 
 
- ***** ROUTINE COMPLETED *****  CP =        14.219
+ ***** ROUTINE COMPLETED *****  CP =        14.594
 
 
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2024 R1          24.1     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   18:34:08  JUN 15, 2024 CP=     14.219
+ 01055371  VERSION=WINDOWS x64   20:51:11  JUN 15, 2024 CP=     14.609
 
  Box and Lid Combination - Final Version--Static Structural (A5)               
 
@@ -797,7 +797,7 @@
 
           ***** MAPDL RESULTS INTERPRETATION (POST1) *****
 
- *** NOTE ***                            CP =      14.219   TIME= 18:34:08
+ *** NOTE ***                            CP =      14.609   TIME= 20:51:11
  Reading results into the database (SET command) will update the current 
  displacement and force boundary conditions in the database with the     
  values from the results file for that load set.  Note that any          
@@ -815,25 +815,25 @@
  EXIT THE MAPDL POST1 DATABASE PROCESSOR
 
 
- ***** ROUTINE COMPLETED *****  CP =        14.219
+ ***** ROUTINE COMPLETED *****  CP =        14.609
 
 
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  18.5688889    
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  20.8530556    
 
- PARAMETER _PREPTIME =     0.000000000    
+ PARAMETER _PREPTIME =     1.000000000    
 
- PARAMETER _SOLVTIME =     7.000000000    
+ PARAMETER _SOLVTIME =     6.000000000    
 
  PARAMETER _POSTTIME =     0.000000000    
 
  PARAMETER _TOTALTIM =     7.000000000    
 
- *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.11224490    
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.22385532    
 
- *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.135942200    
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.143627300    
 
  *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  0.00000000    
 
@@ -848,9 +848,9 @@
 
  *ENDIF
  --- Total number of nodes = 108592
- --- Total number of elements = 70561
- --- Element load balance ratio = 1.1122449
- --- Time to combine distributed files = 0.1359422
+ --- Total number of elements = 73209
+ --- Element load balance ratio = 1.22385532
+ --- Time to combine distributed files = 0.1436273
  --- Sparse memory mode = 0
  --- Number of DOF = 312804
 
@@ -863,7 +863,7 @@
 +--------------------- M A P D L   S T A T I S T I C S ------------------------+
 
 Release: 2024 R1            Build: 24.1       Update: UP20231106   Platform: WINDOWS x64 
-Date Run: 06/15/2024   Time: 18:34     Process ID: 3240
+Date Run: 06/15/2024   Time: 20:51     Process ID: 20396
 Operating System: Windows 10  (Build: 19045)
 
 Processor Model: AMD Ryzen 7 4800H with Radeon Graphics
@@ -890,35 +890,35 @@ Input File: dummy.dat
 
   Core                Machine Name   Working Directory
  -----------------------------------------------------
-     0             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C
-     1             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C
-     2             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C
-     3             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\BOX_LID_WORKING_FILE\_ProjectScratch\ScrAB2C
+     0             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\_ProjectScratch\ScrD223
+     1             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\_ProjectScratch\ScrD223
+     2             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\_ProjectScratch\ScrD223
+     3             DESKTOP-V3NHAEU   D:\GTIIT\Semester 6_Spring 2024\Design project\Project-in-Design-2024\SW\Box and Lid Combination\_ProjectScratch\ScrD223
  
-Latency time from master to core     1 =    2.462 microseconds
-Latency time from master to core     2 =    2.153 microseconds
-Latency time from master to core     3 =    1.909 microseconds
+Latency time from master to core     1 =    1.903 microseconds
+Latency time from master to core     2 =    1.929 microseconds
+Latency time from master to core     3 =    1.904 microseconds
  
-Communication speed from master to core     1 =  4125.73 MB/sec
-Communication speed from master to core     2 =  4754.24 MB/sec
-Communication speed from master to core     3 =  5260.56 MB/sec
+Communication speed from master to core     1 =  4206.12 MB/sec
+Communication speed from master to core     2 =  5155.97 MB/sec
+Communication speed from master to core     3 =  5222.92 MB/sec
 
-Total CPU time for main thread                    :        7.5 seconds
-Total CPU time summed for all threads             :       14.9 seconds
+Total CPU time for main thread                    :        7.7 seconds
+Total CPU time summed for all threads             :       15.2 seconds
 
 Elapsed time spent obtaining a license            :        0.3 seconds
 Elapsed time spent pre-processing model (/PREP7)  :        0.5 seconds
-Elapsed time spent solution - preprocessing       :        1.5 seconds
+Elapsed time spent solution - preprocessing       :        1.6 seconds
 Elapsed time spent computing solution             :        4.5 seconds
 Elapsed time spent solution - postprocessing      :        0.1 seconds
 Elapsed time spent post-processing model (/POST1) :        0.0 seconds
  
 Equation solver used                              :            PCG (symmetric)
-Equation solver computational rate                :        7.6 Gflops
+Equation solver computational rate                :        7.7 Gflops
 
-Sum of disk space used on all processes           :      145.7 MB
+Sum of disk space used on all processes           :      147.1 MB
 
-Sum of memory used on all processes               :      841.0 MB
+Sum of memory used on all processes               :      873.0 MB
 Sum of memory allocated on all processes          :     3240.0 MB
 Physical memory available                         :         15 GB
 Total amount of I/O written to disk               :        0.2 GB
@@ -938,13 +938,13 @@ Total amount of I/O read from disk                :        0.0 GB
  |-----------------------------------------------------------------------------|
  |                                                                             |
  |  Database Requested(-db)     1024 MB     Scratch Memory Requested   1024 MB |
- |  Max Database Used(Master)     96 MB     Max Scratch Used(Master)    258 MB |
- |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)   166 MB |
- |  Sum Database Used(All)        99 MB     Sum Scratch Used(All)       742 MB |
+ |  Max Database Used(Master)     99 MB     Max Scratch Used(Master)    279 MB |
+ |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)   174 MB |
+ |  Sum Database Used(All)       102 MB     Sum Scratch Used(All)       771 MB |
  |                                                                             |
  |-----------------------------------------------------------------------------|
  |                                                                             |
- |        CP Time      (sec) =         14.906       Time  =  18:34:08          |
+ |        CP Time      (sec) =         15.250       Time  =  20:51:12          |
  |        Elapsed Time (sec) =          9.000       Date  =  06/15/2024        |
  |                                                                             |
  *-----------------------------------------------------------------------------*

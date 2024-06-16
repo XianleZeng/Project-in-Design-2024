@@ -4,14 +4,14 @@ Computational Applications and System Integration Inc.
 All rights Reserved.
 ******************************************************************************
 
-Job:file0	at:Sat Jun 15 18:34:06 2024
+Job:file0	at:Sat Jun 15 20:51:10 2024
 
 
 	Number of cores used (Distributed Memory Parallel): 4
 	Degrees of Freedom: 325785
 	DOF Constraints: 12981
-	Elements: 70561
-		Assembled: 70561
+	Elements: 73209
+		Assembled: 73209
 		Implicit: 0
 	Nodes: 108593
 	Number of Load Cases: 1
@@ -29,41 +29,41 @@ Job:file0	at:Sat Jun 15 18:34:06 2024
 	Total Iterations In PCG: 109
 	Average Iterations Per Load Case:  109.0
 	Input PCG Error Tolerance: 1e-08
-	Achieved PCG Error Tolerance: 7.95089e-09
+	Achieved PCG Error Tolerance: 7.83928e-09
 
 
 	DETAILS OF PCG SOLVER SETUP TIME(secs)        Cpu        Wall
-	     Gather Finite Element Data              0.06        0.05
-	     Element Matrix Assembly                 0.88        0.73
+	     Gather Finite Element Data              0.05        0.06
+	     Element Matrix Assembly                 0.72        0.77
 
 	DETAILS OF PCG SOLVER SOLUTION TIME(secs)     Cpu        Wall
-	     Preconditioner Construction             0.03        0.03
-	     Preconditioner Factoring                0.09        0.12
+	     Preconditioner Construction             0.05        0.03
+	     Preconditioner Factoring                0.11        0.12
 	     Apply Boundary Conditions               0.03        0.03
-	     Preconditioned CG Iterations            1.42        1.40
+	     Preconditioned CG Iterations            1.41        1.40
 	          Multiply With A                    0.73        0.74
-	               Multiply With A22             0.58        0.61
-	               Multiply with Cp/Ce           0.03        0.03
-	               Communication Overhead        0.13        0.10
-	          Solve With Precond                 0.58        0.55
-	               Solve With Bd                 0.08        0.05
-	               Multiply With V               0.17        0.19
+	               Multiply With A22             0.64        0.62
+	               Multiply with Cp/Ce           0.06        0.04
+	               Communication Overhead        0.03        0.08
+	          Solve With Precond                 0.59        0.55
+	               Solve With Bd                 0.06        0.06
+	               Multiply With V               0.16        0.19
 	               Communication Overhead        0.00        0.00
-	               Direct Solve                  0.31        0.29
+	               Direct Solve                  0.34        0.29
 ******************************************************************************
-	     TOTAL PCG SOLVER SOLUTION CP TIME      =       1.58 secs
-	     TOTAL PCG SOLVER SOLUTION ELAPSED TIME =       1.58 secs
+	     TOTAL PCG SOLVER SOLUTION CP TIME      =       1.59 secs
+	     TOTAL PCG SOLVER SOLUTION ELAPSED TIME =       1.57 secs
 ******************************************************************************
-	Total Memory Usage at CG         :       1.85 GB
-	PCG Memory Usage at CG           :       0.38 GB
+	Total Memory Usage at CG         :       1.86 GB
+	PCG Memory Usage at CG           :       0.39 GB
 	Memory Usage for Matrix          :       0.16 GB
 	*** I/O Reduction Mode Activated ***
 ******************************************************************************
-	Multiply with A Memory Bandwidth :      35.02 GB/s
-	Mult w/ A Memory Bandwidth (old) :      69.50 GB/s
-	Multiply with A GFLOP Rate       :       7.46 GFlops
-	Solve With Precond GFLOP Rate    :       5.02 GFlops
-	Precond Factoring GFLOP Rate     :      18.94 GFlops
+	Multiply with A Memory Bandwidth :      35.08 GB/s
+	Mult w/ A Memory Bandwidth (old) :      69.63 GB/s
+	Multiply with A GFLOP Rate       :       7.48 GFlops
+	Solve With Precond GFLOP Rate    :       5.04 GFlops
+	Precond Factoring GFLOP Rate     :      18.66 GFlops
 ******************************************************************************
 	Total amount of I/O read         :       0.00 GB
 	Total amount of I/O written      :       0.00 GB

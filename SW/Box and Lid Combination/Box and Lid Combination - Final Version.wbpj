@@ -2,13 +2,14 @@
 <Storage>
   <Project Version="9.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">6323</timestamp-max>
+    <timestamp-max valType="Int64">7253</timestamp-max>
     <framework-build-version valType="String">24.1.144.0</framework-build-version>
     <external-version-string valType="String">2024 R1</external-version-string>
-    <last-saved-utc valType="String">06/15/2024 10:35:25</last-saved-utc>
+    <last-saved-utc valType="String">06/15/2024 12:52:32</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">Oliver@DESKTOP-V3NHAEU:C:\Users\Oliver\AppData\Local\Temp\WorkbenchLogs\CoreEvents15640.log</ArrayEntry>
+      <ArrayEntry Index="1">Oliver@DESKTOP-V3NHAEU:C:\Users\Oliver\AppData\Local\Temp\WorkbenchLogs\CoreEvents24484.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -472,7 +473,7 @@
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F2</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$79e310ba-3020-4547-b3da-6f04d7d6dd1c, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 2}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$79e310ba-3020-4547-b3da-6f04d7d6dd1c, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 3}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -521,9 +522,9 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 6318, "Input": 6319, "Output": 1505}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7250, "Input": 7251, "Output": 1505}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
@@ -657,7 +658,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 6061, "Input": 1823, "Output": 1823}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 7228, "Input": 1823, "Output": 1823}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
     </Container>
@@ -678,7 +679,7 @@
       <Object Name="/Units/UnitSystem:UnitSys" Version="1.0">
         <class-type valType="String">UnitSystem</class-type>
         <object-name valType="String">UnitSys</object-name>
-        <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "ChangedQuantityUnits": {"Temperature": "C", "Energy Source Coefficient": "W m^-3 C^-1", "Heat Transfer Coefficient": "W m^-2 C^-1", "InvTemp1": "C^-1", "InvTemp2": "C^-2", "InvTemp3": "C^-3", "InvTemp4": "C^-4", "Molar Entropy": "J mol^-1 C^-1", "Normalized Value": "m m^-1", "Seebeck Coefficient": "V C^-1", "Specific Entropy": "J kg^-1 C^-1", "Specific Heat Capacity": "J kg^-1 C^-1", "Temperature Gradient": "C m^-1", "Thermal Conductivity": "W m^-1 C^-1", "Thermal Expansivity": "C^-1", "Stress Per Temperature": "Pa C^-1", "Temperature Difference": "C", "Density Derivative wrt Temperature": "kg m^-3 C^-1", "Pressure Derivative wrt Temperature": "Pa C^-1", "Thermal Capacitance": "J C^-1", "Thermal Conductance": "W C^-1", "Thermal Contact Resistance": "W^-1 m^2 C", "Piezoelectric Strain Coefficient": "A s N^-1", "Piezoelectric Stress Coefficient": "A s m^-2", "Thermal Compliance": "W C"}, "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
+        <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "ChangedQuantityUnits": {}, "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
       </Object>
       <Object Name="/Units/UnitSystem:UnitSys 1" Version="1.0">
         <class-type valType="String">UnitSystem</class-type>
